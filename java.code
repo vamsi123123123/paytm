@@ -1,0 +1,29 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+Explanation:
+public class HelloWorld { ... }: This defines a class named HelloWorld. In Java, all code resides within classes. The public keyword means the class is accessible from anywhere.
+public static void main(String[] args) { ... }: This is the main method, the entry point for any Java program.
+public: Accessible from anywhere.
+static: The method belongs to the HelloWorld class, not to a specific object of that class.
+void: The method does not return any value.
+main: The name of the method that the Java Virtual Machine (JVM) looks for to start execution.
+String[] args: An array of String objects, which can be used to pass command-line arguments to the program.
+System.out.println("Hello, World!");: This line prints the string "Hello, World!" to the console, followed by a new line.
+System: A final class in the java.lang package.
+out: A static member of the System class, representing the standard output stream.
+println(): A method of the PrintStream class (which out is an instance of) that prints the given argument and then terminates the line.
+To compile and run this code:
+Save the code in a file named HelloWorld.java.
+Open a terminal or command prompt and navigate to the directory where you saved the file.
+Compile the code using the Java compiler:
+Code
+
+    javac HelloWorld.java
+Run the compiled code.
+Code
+
+    java HelloWorld
+This will output: Hello, World!
