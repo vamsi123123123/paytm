@@ -18,12 +18,4 @@ println(): A method of the PrintStream class (which out is an instance of) that 
 To compile and run this code:
 Save the code in a file named HelloWorld.java.
 Open a terminal or command prompt and navigate to the directory where you saved the file.
-Compile the code using the Java compiler:
-Code
-
-    javac HelloWorld.java
-Run the compiled code.
-Code
-
-    java HelloWorld
-This will output: Hello, World!
+Compile the code using the Java compiler
